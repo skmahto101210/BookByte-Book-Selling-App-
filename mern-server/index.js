@@ -18,7 +18,11 @@ main().catch((err) => {
 });
 
 //middlewares
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(morgan("default"));
 app.use(express.json());
 
