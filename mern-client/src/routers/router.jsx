@@ -1,25 +1,26 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import Home from "../home/Home.jsx";
-import Shop from "../shop/Shop.jsx";
-import About from "../components/About.component.jsx";
-import Blog from "../components/Blog.component.jsx";
-import SingleBook from "../shop/SingleBook.jsx";
-import DashboardLayout from "../dachboard/DashboardLayout.dashboard.jsx";
-import Dashbord from "../dachboard/Dashbord.dashboard.jsx";
-import UploadBook from "../dachboard/UploadBook.dashborad.jsx";
-import ManageBooks from "../dachboard/ManageBooks.dashboard.jsx";
-import EditBooks from "../dachboard/EditBooks.dashboard.jsx";
-import SignUp from "../components/SignUp.components.jsx";
-import PrivateRoute from "../PrivateRoute/PrivateRoute.jsx";
-import LogOut from "../components/LogOut.component.jsx";
-import Profile from "../dachboard/Profile.dashboard.jsx";
-import LogIn from "../components/Login.component.jsx";
-import ForgotPassword from "../components/ForgotPassword.component.jsx";
-import LogInForm from "../components/LogInForm.component.jsx";
+import App from './../App';
+import Home from './../home/Home';
+import Shop from './../shop/Shop';
+import About from './../components/About.component';
+import Blog from './../components/Blog.component';
+import SingleBook from './../shop/SingleBook';
+import PrivateRoute from './../PrivateRoute/PrivateRoute';
+import DashboardLayout from './../dachboard/DashboardLayout.dashboard';
+import Dashbord from './../dachboard/Dashbord.dashboard';
+import UploadBook from './../dachboard/UploadBook.dashborad';
+import ManageBooks from './../dachboard/ManageBooks.dashboard';
+import EditBooks from './../dachboard/EditBooks.dashboard';
+import Profile from './../dachboard/Profile.dashboard';
+import SignUp from './../components/SignUp.components';
+import LogIn from './../components/LogIn.component';
+import LogInForm from './../components/LogInForm.component';
+import ForgotPassword from './../components/ForgotPassword.component';
+import LogOut from './../components/LogOut.component';
+
 
 export const router = createBrowserRouter([
-  {
+  { 
     path: "/",
     element: <App />,
     children: [
