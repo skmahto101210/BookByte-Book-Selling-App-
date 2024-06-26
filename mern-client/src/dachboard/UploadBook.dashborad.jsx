@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Button, Label, Select, TextInput, Textarea } from "flowbite-react";
-import { BookData } from "../store/BookData.store";
+import { BookData } from './../store/BookData.store';
 
 export default function UploadBook() {
   const bookCategories = [

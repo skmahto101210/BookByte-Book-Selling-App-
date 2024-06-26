@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { AuthContext } from "../store/AuthProvider.store";
+import { AuthContext } from './../store/AuthProvider.store';
 export default function Profile() {
   const { user } = useContext(AuthContext);
   // console.log(user);

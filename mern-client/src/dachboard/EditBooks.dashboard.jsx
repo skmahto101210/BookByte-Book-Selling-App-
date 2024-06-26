@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { Button, Label, Select, TextInput, Textarea } from "flowbite-react";
 import { useParams } from "react-router-dom";
-import { BookData } from "../store/BookData.store";
+import { BookData } from "./../store/BookData.store";
 
 export default function EditBooks() {
   const { id } = useParams();

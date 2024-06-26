@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Table } from "flowbite-react";
-import { BookData } from "../store/BookData.store";
+import { BookData } from "./../store/BookData.store";
 import { Link } from "react-router-dom";
 
 export default function ManageBooks() {
