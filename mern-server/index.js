@@ -25,6 +25,9 @@ app.use(express.json());
 //router
 app.use("/books", bookRoute.router);
 
+app.get("/", (req, res) => {
+  return res.send("API Live");
+});
 app.listen(port, () => {
   console.log(`Server is listening at ${port}`);
 });

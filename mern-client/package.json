@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "http:/localhost:8080",
+  "proxy": "https://bookbyte-book-selling-app-server.onrender.com",
   "scripts": {
     "test": "vitest",
     "dev": "vite",

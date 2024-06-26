@@ -29,7 +29,7 @@ function BookDataProvider({ children }) {
   const [bookData, dispatchBookData] = useReducer(bookDataReducer, []);
   const [dataFetched, setDataFetched] = useState(false);
   const [dataUploaded, setDataUploded] = useState(false);
-  const baseUrl = `http://localhost:8080/books`;
+  const baseUrl = `https://bookbyte-book-selling-app-server.onrender.com`;
 
   const getBookData = (signal) => {
     setDataFetched(true);
